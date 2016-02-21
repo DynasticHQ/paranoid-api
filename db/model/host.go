@@ -12,8 +12,3 @@ type Host struct {
 	OSFamily              string `json: "os_family" gorethink: "os_family"`
 	SystemType            string `json: "system_type" gorethink: "system_type"`
 }
-
-type MinionSecrets struct {
-	PrivateKey string `json: "private_key" gorethink: "private_key"`
-	PublicKey  string `json: "public_key" gorethink: "public_key"`
-}
